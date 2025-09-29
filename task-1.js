@@ -1,7 +1,7 @@
 let name=prompt("your name?","0");
 let age=prompt("your age?","0");
 age=Number(age);
-if (age>18){
+if (age>=18){
     alert(`Hello ${name},you are eligible to vote`);
 }
 else{
